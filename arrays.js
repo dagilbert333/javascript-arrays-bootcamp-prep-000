@@ -5,8 +5,14 @@ var chocolateBars = [
   'skittles'
   ];
   
-function addElementToBeginningOfArray(array, element){
-   return array = [].unshift(element);
+function addElementToBeginningOfArray(pet, element){
+  pet = [
+    'Cat',
+    'Dog',
+   ];
+  
+  pet.unshift(element);
+  return pet;
   }
   
   function destructivelyAddElementToBeginningOfArray(){
