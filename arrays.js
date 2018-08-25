@@ -7,8 +7,6 @@ var chocolateBars = [
   
 function addElementToBeginningOfArray(pet, element){
   pet = [
-    'Cat',
-    'Dog',
    ];
   
   pet.unshift(element);
